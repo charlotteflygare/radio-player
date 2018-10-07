@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
+
+body {
+background-color: #262626;
+}
+
+h1, p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: normal;
+  padding-left: 15px;
+  color: #000000;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+  text-align: left;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+/* .Header {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 0px;
+  display: block;
+  color: #ffffff;
+  margin-top: 50px;
+} */
+
+.Header {
+  height: 80px;
+  display: block;
+  border-bottom: 1px solid #d1cfcf;
+}
+
+.Header img {
+  height: auto;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.Station {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  height: 550px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.Image-container img {
+  width: 60%;
+  overflow: hidden;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.Image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Audio-container {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Audio-name {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 200px;
+}
+
+.Audio-player {
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+  padding-left: 0;
+  height: 80px;
+}
