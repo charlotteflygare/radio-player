@@ -18,7 +18,7 @@ class Station extends React.Component {
           </div>
           <div className="Audio-container">
             <div className="Audio-name">
-              <h1>{this.props.name}</h1>
+              <h2>{this.props.name}</h2>
               <p>{this.props.tag}</p>
           </div>
           <div className="Audio-player">

@@ -4,14 +4,14 @@ body {
 background-color: #262626;
 }
 
-h1, p {
+h2, p {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
   padding-left: 15px;
   color: #000000;
 }
 
-h1 {
+h2 {
   font-size: 18px;
   margin: 0;
   text-align: left;
@@ -42,22 +42,27 @@ p {
 .Header {
   height: 80px;
   display: block;
-  border-bottom: 1px solid #d1cfcf;
 }
 
 .Header img {
   height: auto;
   width: 200px;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .App {
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #d1cfcf;
+
 }
 
 .Station {
@@ -65,10 +70,7 @@ p {
   flex-direction: column;
   width: 31%;
   height: 550px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 13px;
   justify-content: space-between;
 }
 

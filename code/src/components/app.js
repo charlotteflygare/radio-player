@@ -21,7 +21,8 @@ class App extends React.Component {
   render() {
       if (this.state.stationItems.length > 0) {
         return (
-        <div className="Header"><img src="logo_wht.png"></img>
+        <div className="Header">
+          <img src="logo_wht.png"></img>
           <div className="App">
             {this.state.stationItems.map((item) => {
               return (
@@ -34,7 +35,8 @@ class App extends React.Component {
               )
             })}
             </div>
-        </div>
+            </div>
+
         )
       } else {
         return <div>Loading...</div>
